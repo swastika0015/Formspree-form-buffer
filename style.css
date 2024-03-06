@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 32rem;
+    margin: 3.125rem auto; /* Adjusted from 50px to 3.125rem */
+    padding: 1.25rem; /* Adjusted from 20px to 1.25rem */
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 0.625rem; /* Adjusted from 10px to 0.625rem */
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3); /* Adjusted from 10px to 0.625rem */
+  }
+  
+  .container h2 {
+    text-align: center;
+    color:  rgb(173, 14, 35);
+    padding: 0.3125rem; /* Adjusted from 5px to 0.3125rem */
+  }
+  
+  form {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 15rem;
+    text-align: left;
+    padding-left: 1rem;
+  }
+  
+  form h2 {
+    margin-bottom: 1.25rem; /* Adjusted from 20px to 1.25rem */
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: calc(100% - 1.25rem); /* Adjusted from 20px to 1.25rem */
+    padding: 0.625rem; /* Adjusted from 10px to 0.625rem */
+    margin-top: 0.625rem; /* Adjusted from 10px to 0.625rem */
+    margin-bottom: 2rem;
+    border: 0.0625rem solid #ccc; /* Adjusted from 1px to 0.0625rem */
+    border-radius: 0.3125rem; /* Adjusted from 5px to 0.3125rem */
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  button {
+    width: calc(100% - 1.25rem); /* Adjusted from 20px to 1.25rem */
+    padding: 0.7rem; /* Adjusted from 8px to 0.5rem */
+    background-color: rgb(229, 18, 46);
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem; /* Adjusted from 5px to 0.3125rem */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(173, 14, 35);
+  }
+  
